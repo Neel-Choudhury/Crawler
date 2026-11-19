@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: KafkaProducerConsumerTest
+  kafka:
+    bootstrap-servers: 192.168.29.7:9092
+    topic:
+      create-order: TestTopic
+    consumer:
+      group-id:
+        notification: notification
+        service: service
